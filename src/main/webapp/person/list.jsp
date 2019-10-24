@@ -18,10 +18,10 @@
             Name
         </th>
         <th>
-            Age
+            Address
         </th>
         <th>
-            City
+            Msisdn
         </th>
       </tr>
       <c:forEach var="person" items="${personList}">
@@ -33,10 +33,10 @@
                 <c:out value="${person.name}" />
             </td>
             <td>
-                <c:out value="${person.age}" />
+                <c:out value="${person.address}" />
             </td>
             <td>
-                <c:out value="${person.city}" />
+                <c:out value="${person.msisdn}" />
             </td>
         </tr>
       </c:forEach>

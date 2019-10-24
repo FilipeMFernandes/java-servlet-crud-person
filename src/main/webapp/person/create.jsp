@@ -14,10 +14,10 @@
         <input type="text" name="name"  >
         <br><br>
         Age:
-        <input type="number" name="age" >
+        <input type="text" name="address" >
         <br><br>
         City:
-        <input type="text" name="city"  >
+        <input type="text" name="msisdn"  >
         <br><br>
 
         <input type="submit" value="Save" />

@@ -1,0 +1,5 @@
+com\tbp\repository\PersonRepository.class
+com\tbp\servlet\PersonEditServlet.class
+com\tbp\repository\Person.class
+com\tbp\servlet\PersonCreateServlet.class
+com\tbp\servlet\PersonListServlet.class

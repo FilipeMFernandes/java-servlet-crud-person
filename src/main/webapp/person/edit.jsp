@@ -15,11 +15,11 @@
         <c:out value="${person.name}" />
         <input type="hidden" name="name" value="${person.name}" >
         <br><br>
-        Age:
-        <input type="number" name="age" value="${person.age}" >
+        Address:
+        <input type="number" name="age" value="${person.address}" >
         <br><br>
-        City:
-        <input type="text" name="city" value="${person.city}" >
+        Msisdn:
+        <input type="text" name="city" value="${person.msisdn}" >
         <br><br>
         <input type="hidden" name="typeAction" value="edit" >
         <input type="submit" value="Save" />

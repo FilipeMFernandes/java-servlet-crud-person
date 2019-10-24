@@ -31,9 +31,9 @@ public class PersonCreateServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String name = req.getParameter("name");
-        Integer age = Integer.parseInt(req.getParameter("age"));
-        String city = req.getParameter("city");
-        Person person = new Person(name, age, city);
+        String address = req.getParameter("address");
+        String msisdn = req.getParameter("msisdn");
+        Person person = new Person(name, address, msisdn);
         personRepository.save(person);
         resp.sendRedirect(req.getContextPath() + "/person/list");
     }

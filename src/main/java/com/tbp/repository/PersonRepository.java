@@ -11,9 +11,9 @@ public class PersonRepository {
     static Map<String, Person> personMap;
 
     static {
-        Person john = new Person("John", 20, "Rio de Janeiro");
-        Person mary = new Person("Mary", 22, "New York");
-        Person andrew = new Person("Andrew", 30, "London");
+        Person john = new Person("John", "rua aaaa, 102", "5521997791170");
+        Person mary = new Person("Mary", "rua bbbb, 2000", "5522999999999");
+        Person andrew = new Person("Andrew", "rua cccc, 303", "5523998989898");
 
         personMap = new HashMap<String, Person>();
         personMap.put(john.getName(), john);

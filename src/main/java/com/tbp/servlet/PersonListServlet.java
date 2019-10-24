@@ -30,5 +30,4 @@ public class PersonListServlet extends HttpServlet {
         req.getRequestDispatcher("/person/list.jsp").forward(req, resp);
     }
 
-
 }

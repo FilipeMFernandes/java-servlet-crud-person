@@ -2,14 +2,12 @@ package com.tbp.repository;
 
 public class Person {
 
-    String name;
-    Integer age;
-    String city;
+    String name, address, msisdn;
 
-    public Person(String name, Integer age, String city) {
+    public Person(String name, String address, String msisdn) {
         this.name = name;
-        this.age = age;
-        this.city = city;
+        this.address = address;
+        this.msisdn = msisdn;
     }
 
     public Person() {
@@ -24,19 +22,19 @@ public class Person {
         this.name = name;
     }
 
-    public Integer getAge() {
-        return age;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAge(Integer age) {
-        this.age = age;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
-    public String getCity() {
-        return city;
+    public String getMsisdn() {
+        return msisdn;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setMsisdn(String msisdn) {
+        this.msisdn = msisdn;
     }
 }

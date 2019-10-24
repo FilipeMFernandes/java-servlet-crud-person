@@ -43,11 +43,11 @@ public class PersonEditServlet extends HttpServlet {
 
     private void save(HttpServletRequest req, HttpServletResponse resp) {
         String name = req.getParameter("name");
-        Integer age = Integer.parseInt(req.getParameter("age"));
-        String city = req.getParameter("city");
+        String address = req.getParameter("address");
+        String msisdn = req.getParameter("msisdn");
         Person person = personRepository.getByName(name);
-        person.setAge(age);
-        person.setCity(city);
+        person.setAddress(address);
+        person.setMsisdn(msisdn);
         personRepository.save(person);
     }
 
